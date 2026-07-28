@@ -7,6 +7,7 @@
 @media screen and (max-width: 768px) {
     .navbar{
         backdrop-filter: none;
+        justify-content: center;
     }
     #menu-icon{
         display: block;
@@ -132,6 +133,30 @@
         align-self: stretch;
         text-align: center;
     }
+    .skills{
+    width:95%;
+    margin:50px auto;
+}
+
+.skills h2{
+    font-size:28px;
+}
+
+.skill{
+    padding:15px;
+}
+
+.skill p{
+    font-size:16px;
+}
+
+.skill p i{
+    font-size:20px;
+}
+
+.skill-bar{
+    height:8px;
+}
 }
 
 
