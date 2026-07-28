@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <title>Projet portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="/CSS/resonsive.css">
+    <link rel="stylesheet" href="/CSS/animations.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">Kmg
+            <span>.Labs</span></a>
+        <input type="checkbox" name="" id="menu-toggle">
+        <label for="menu-toggle">
+            <i class='bx bx-menu' id="menu-icon"></i>
+        </label>
+        <ul class="navbar-menu">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <section class="home">
+        <div class="home-info">
+            <p class="hello">Bonjour, je suis</p>
+            <h1>KAMOA Kepler</h1>
+            <h2>I'm a
+                <span>web</span>
+                <span>developper</span>
+            </h2>
+            <p>Je suis un jeune développeur passionné par le développement web et la création de solutions modernes. Curieux, motivé et toujours en quête d'apprentissage,
+                j'aime transformer des idées en projets concrets à travers un code propre et des interfaces soignées.</p>
+            <div class="btn-sci">
+                <a href="#" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="https://github.com/"><i class='bx bxl-github'></i></a>
+                    <a href="https://fr.linkedin.com/"><i class='bx bxl-linkedin bx-remove-padding'></i></a>
+                    <a href="https://www.youtube.com/"><i class='bx bxl-youtube'></i></a>
+                    <a href="https://www.facebook.com/?locale=fr_FR"><i class='bx bxl-facebook'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="/image/proilK.jpeg" alt="Kepler Kamoa">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-card">
+            <div class="about-left">
+                <div class="about-img">
+                    <img src="/image/proilK.jpeg" alt="Kepler Kamoa">
+                </div>
+                <div class="about-content">
+                    <h2>About <span>Me</span></h2>
+                    <p>Au cours de mon parcours, j'ai acquis des bases solides en développement front-end et back-end, en travaillant avec différentes technologies et frameworks. J'accorde une grande importance à la qualité du code, à l'expérience utilisateur et aux bonnes pratiques de développement.
+                        J'apprécie le travail en équipe, la résolution de problèmes et l'apprentissage continu.</p>
+                    <a href="#contact" class="btn">Read more</a>
+                </div>
+            </div>
+            <div class="about-right">
+                <div class="icn">
+                    <i class="fas fa-circle"></i>
+                    <span>disponible pour le projet freelance</span>
+                </div>
+                <div class="icn">
+                    <i class="fas fa-briefcase"></i>
+                    <span>2 ans d'expérience</span>
+                </div>
+                <div class="icn">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Ampasikibo, Madagascar</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2>Mes <span>skills</span></h2>
+        <div class="skill-arrangement">
+            <div class="skill">
+                <p> <i class="fa-brands fa-html5"></i> HTML5<span>95%</span></p>
+                <div class="skill-bar">
+                    <div class="html"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p><i class="fa-brands fa-css3"></i> CSS<span>80%</span></p>
+                <div class="skill-bar">
+                    <div class="css"></div>
+                </div> 
+            </div>
+            <div class="skill">
+                <p><i class="fa-brands fa-js"></i> JavaScript <span>70%</span></p>
+                <div class="skill-bar">
+                    <div class="js"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p><i class="fa-brands fa-react"></i> React <span>30%</span></p>
+                <div class="skill-bar">
+                    <div class="react"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p><i class="fa-brands fa-git-alt"></i> Git / GitHub <span>95%</span></p>
+                <div class="skill-bar">
+                    <div class="git"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p><i class="fa-brands fa-bootstrap"></i> Bootstrap <span>70%</span></p>
+                <div class="skill-bar">
+                    <div class="boostrap"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="services" id="services">
+        <h2>Mes <span>services</span></h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class='bx bx-code-alt'></i>
+                <h3>Développement Front-end</h3>
+                <p>Création d'interfaces web propres, responsives et rapides avec HTML, CSS et JavaScript.</p>
+            </div>
+            <div class="service-card">
+                <i class='bx bx-server'></i>
+                <h3>Développement Back-end</h3>
+                <p>Mise en place de la logique serveur, des bases de données et des API qui font tourner un site.</p>
+            </div>
+            <div class="service-card">
+                <i class='bx bx-devices'></i>
+                <h3>Design Responsive</h3>
+                <p>Des sites qui s'adaptent parfaitement à tous les écrans, du mobile au grand desktop.</p>
+            </div>
+            <div class="service-card">
+                <i class='bx bx-support'></i>
+                <h3>Maintenance & Support</h3>
+                <p>Corrections, mises à jour et amélioration continue de vos projets existants.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <h2>Mes <span>projets</span></h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="window-bar">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="project-preview calculator-preview">
+                    <img src="/image/calclog-ameliore-application-calculatrive-iphone-810x553.webp" alt="">
+                </div>
+                <div class="project-body">
+                    <h3>Calculatrice</h3>
+                    <p>Une calculatrice fonctionnelle construite en HTML, CSS et JavaScript : opérations de base, clavier interactif et interface claire.</p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="link-code"><i class='bx bxl-github'></i> Voir le code sur GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+           
+            <div class="project-card">
+                <div class="window-bar">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="project-preview calculator-preview">
+                    <img src="/image/images.jfif" alt="">
+                </div>
+                <div class="project-body">
+                    <h3>Application DHTML</h3>
+                    <p>Application web DHTML avec menu de navigation et 4 modules : calcul par la méthode de Cramer, redimensionnement d'image par sliders, panneau publicitaire animé, et tableau de produits (jQuery DataTable) avec statistiques et graphique (Chart.js), le tout stylé avec Bootstrap.</p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="link-code"><i class='bx bxl-github'></i> Voir le code sur GitHub</a>
+                    </div>
+                </div>
+            </div> 
+             <div class="project-card">
+                <div class="window-bar">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="project-preview soon-preview">
+                    <i class='bx bx-time-five'></i>
+                </div>
+                <div class="project-body">
+                    <h3>Prochain projet</h3>
+                    <p>Un nouveau projet est en cours de développement. Revenez bientôt pour le découvrir !</p>
+                    <div class="tags">
+                        <span>En cours</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#contact" class="btn small">Me contacter</a>
+                    </div>
+                </div>
+            </div>           
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Me <span>contacter</span></h2>
+        <div class="contact-card">
+            <div class="contact-info">
+                <div class="icn">
+                    <i class="fas fa-phone"></i>
+                    <span>+261 34 53 266 07</span>
+                </div>
+                <div class="icn">
+                    <i class="fas fa-envelope"></i>
+                    <span>keplerkamoa2@gmail.com</span>
+                </div>
+                <div class="icn">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Ampasikibo, Madagascar</span>
+                </div>
+                <div class="sci contact-sci">
+                    <a href="https://github.com/"><i class='bx bxl-github'></i></a>
+                    <a href="https://fr.linkedin.com/"><i class='bx bxl-linkedin bx-remove-padding'></i></a>
+                    <a href="https://www.youtube.com/"><i class='bx bxl-youtube'></i></a>
+                    <a href="https://www.facebook.com/?locale=fr_FR"><i class='bx bxl-facebook'></i></a>
+                </div>
+            </div>
+            <form class="contact-form" action="mailto:keplerkamoa2@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 KAMOA Kepler — <span>Kmg.Labs</span>. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
