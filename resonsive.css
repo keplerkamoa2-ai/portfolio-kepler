@@ -1,0 +1,135 @@
+@media screen and (max-width: 991px){
+    .services-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        backdrop-filter: none;
+    }
+    #menu-icon{
+        display: block;
+    }
+    .navbar-menu{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.7rem !important;
+        height: 100vh;
+        width: 100%;
+        transform: translateX(100%);
+        top: 0;
+        right: 0;
+        padding: 5rem 1.5rem;
+        box-shadow: 0 10px 10px transparent;
+        background: transparent;
+        backdrop-filter: blur(10px);
+        transition: right .5s ease;
+    }
+    .navbar-menu li{
+        margin-left: 0;
+    }
+    #menu-toggle:checked ~ .navbar-menu{
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .home{
+        flex-direction: column;
+        text-align: center;
+        padding: 110px 20px 40px;
+        height: auto;
+        min-height: 100vh;
+    }
+    .home-img{
+        order: -1;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    .home-img .img-box img,
+    .home-img .img-box{
+        width: 220px;
+        height: 220px;
+    }
+    .code-chip{
+        right: 10px;
+    }
+    .home-info h1{
+        font-size: 38px;
+    }
+    .home-info h2{
+        font-size: 28px;
+        text-align: center;
+    }
+    .home-info p{
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .home-info .btn-sci{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .home-info .btn-sci .sci{
+        margin-left: 0;
+    }
+    .sci{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .about{
+        padding: 30px 20px;
+        width: 100%;
+    }
+    .about-card{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    .about-left{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about-content h2{
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .about-content p{
+        font-size: 16px;
+    }
+    .about-img{
+        width: 75px;
+        height: 75px;
+    }
+    .icn{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .skills{
+        width: 90%;
+        padding: 20px;
+    }
+    .services-grid{
+        grid-template-columns: 1fr;
+    }
+    .projects-grid{
+        grid-template-columns: 1fr;
+    }
+    .contact-card{
+        flex-direction: column;
+    }
+    .contact-form button{
+        align-self: stretch;
+        text-align: center;
+    }
+}
