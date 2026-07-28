@@ -199,7 +199,7 @@ section h2{
 
 .about{
     padding: 80px 50px 50px;
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 .about-card{
@@ -356,7 +356,7 @@ section h2{
     background: #111827;
     border: 1px solid rgba(255,255,255,.08);
     border-radius: 15px;
-    padding: 30px 20px;
+    padding: 90px 20px;
     text-align: center;
     flex: 0 0 260px;
 }
