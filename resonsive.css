@@ -7,7 +7,6 @@
 @media screen and (max-width: 768px) {
     .navbar{
         backdrop-filter: none;
-        justify-content: center;
     }
     #menu-icon{
         display: block;
