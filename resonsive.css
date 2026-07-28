@@ -118,7 +118,7 @@
 @media screen and (max-width: 768px){
     .skills{
         width: 90%;
-        padding: 40px;
+        padding: 10px;
     }
     .services-grid{
         grid-template-columns: 1fr;
