@@ -30,6 +30,7 @@
     }
     .navbar-menu li{
         margin-left: 0;
+        text-align: center;
     }
     #menu-toggle:checked ~ .navbar-menu{
         transform: translateX(0);
